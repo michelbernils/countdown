@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;  
+}
+
+.timer-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-end;
+}
+
+.clock{
+  display: relative;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.clock p {
+  font-size: 16px;
+}
+
+
+.clock section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.clock span{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
